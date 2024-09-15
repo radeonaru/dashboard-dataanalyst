@@ -1,12 +1,9 @@
 import streamlit as st
-import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df_day = pd.read_csv("submission/Bike-sharing-dataset/day.csv", delimiter=",")
-
-df_hour = pd.read_csv("submission/Bike-sharing-dataset/hour.csv", delimiter=",")
+df_hour = pd.read_csv("submission/dashboard/hour.csv", delimiter=",")
 
 sns.set(style="whitegrid")
 
