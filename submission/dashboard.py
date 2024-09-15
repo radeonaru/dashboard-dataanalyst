@@ -4,9 +4,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df_day = pd.read_csv("Bike-sharing-dataset/day.csv", delimiter=",")
+df_day = pd.read_csv("submission/Bike-sharing-dataset/day.csv", delimiter=",")
 
-df_hour = pd.read_csv("Bike-sharing-dataset/hour.csv", delimiter=",")
+df_hour = pd.read_csv("submission/Bike-sharing-dataset/hour.csv", delimiter=",")
 
 sns.set(style="whitegrid")
 
